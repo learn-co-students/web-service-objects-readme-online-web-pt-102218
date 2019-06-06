@@ -1638,3 +1638,41 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-02-15 17:33:28 -0500
+Started GET "/" for ::1 at 2019-06-06 06:46:55 -0400
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/forwardlearning/.rvm/gems/ruby-2.6.1/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 426ms (Views: 418.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2019-06-06 06:46:56 -0400
+Started GET "/search" for ::1 at 2019-06-06 06:46:59 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/search" for ::1 at 2019-06-06 06:47:11 -0400
+Processing by SearchesController#foursquare as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HSgsK2Wm7IkrAcC8MkIcMdKZMxvpICgKeniyHx4XJeXtSFLoZYjb4a7mN2rMtb0Tw4Q3a+5LPsEHhreLbCFCUw==", "zipcode"=>"00959", "commit"=>"Search!"}
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (20.6ms)
+Completed 200 OK in 646ms (Views: 49.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/friends" for ::1 at 2019-06-06 06:49:57 -0400
+Processing by SearchesController#friends as HTML
+  Rendering searches/friends.html.erb within layouts/application
+  Rendered searches/friends.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 413ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for ::1 at 2019-06-06 06:50:03 -0400
+Processing by SearchesController#search as HTML
+  Rendering searches/search.html.erb within layouts/application
+  Rendered searches/search.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 17ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
