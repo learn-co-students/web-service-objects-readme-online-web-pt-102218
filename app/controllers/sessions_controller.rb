@@ -14,4 +14,9 @@ class SessionsController < ApplicationController
     session[:token] = body["access_token"]
     redirect_to root_path
   end
+
+  def friends 
+    foursquare = FoursquareService.new
+    @friends = foursquare.friends(session[:token])
+  end 
 end
